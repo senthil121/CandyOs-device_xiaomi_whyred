@@ -305,6 +305,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_CAM_INTERFACE=2
 
+#Enable HAL3
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1
+
 #Enable stm-events
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.coresight.config=stm-events
