@@ -476,19 +476,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.lineage.livedisplay</name>
+        <name>com.qualcomm.qti.wifidisplayhal</name>
         <version>1.0</version>
         <interface>
-            <name>IColor</name>
-            <instance>default</instance>
+            <name>IHDCPSession</name>
+            <instance>wifidisplayhdcphal</instance>
         </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.lineage.power</name>
-        <version>1.0</version>
         <interface>
-            <name>ILineagePower</name>
-            <instance>default</instance>
+            <name>IDSManager</name>
+            <instance>wifidisplaydshal</instance>
         </interface>
     </hal>
 </compatibility-matrix>
