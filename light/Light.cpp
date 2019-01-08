@@ -36,6 +36,9 @@
 #define RAMP_STEP_MS    "ramp_step_ms"
 #define START_IDX       "start_idx"
 
+#define MAX_LED_BRIGHTNESS    255
+#define MAX_LCD_BRIGHTNESS    4095
+
 /*
  * 8 duty percent steps.
  */
