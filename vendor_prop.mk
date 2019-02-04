@@ -307,7 +307,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Enable HAL3
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.HAL3.enabled=1
+    persist.camera.HAL3.enabled=1 \
+ camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
 
 #Enable stm-events
 PRODUCT_PROPERTY_OVERRIDES += \
