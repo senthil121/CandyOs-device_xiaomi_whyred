@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_whyred.mk
+    $(LOCAL_DIR)/candy_whyred.mk
