@@ -1402,11 +1402,14 @@ vendor/lib64/libsensor1.so
 vendor/lib64/sensors.ssc.so
 
 # Thermal
-vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-china.conf
+vendor/etc/thermal-engine-high.conf
 vendor/etc/thermal-engine-india.conf
 vendor/etc/thermal-engine-map.conf
+vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine-sgame.conf
+vendor/etc/thermal-engine-Youtube.conf
 vendor/bin/thermal-engine
 vendor/lib/libthermalfeature.so
 vendor/lib/hw/thermal.sdm660.so
